@@ -1,4 +1,4 @@
-一、基本配置操作
+###一、基本配置操作
 1、命令行创建目录 mkdir packageName,打开编辑器命令 code .
 2、初始化一个包 npm init -y
 3、安装webpack 推荐局部安装，在4.0以后webpack和webpack-cli分离了，所以都要安装
@@ -14,7 +14,7 @@
 8、命令行启动简化
     借助node安装的模块会在node_modules/bin下面生成一个软连接，来配置自定义的功能命令
     在package.json里面的scripts里面配置命令
-二、webpack核心概念
+###二、webpack核心概念
     webpack的工作流程，通过入口文件，分析依赖关系，把依赖的文件通过loader加载以及plugins处理，最终输出js、css、png等模块文件
 1、entry
     指定打包入口文件，webpack执行构建的第一步将从entry开始，可抽象成输入
